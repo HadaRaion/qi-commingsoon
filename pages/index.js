@@ -29,14 +29,14 @@ const Homepage = () => {
 				<meta name="keywords" content="퀀티넘, 투자자문, 인베스트먼트, 부동산투자" />
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
-			{/* <h1>{t('test')}</h1> */}
 			<div className="svg">
 				<Lottie options={defaultOptions} />
 			</div>
 
-			{/* <Lottie options={defaultOptions} height={800} width={1280} /> */}
-			<h2 className="en">COMING SOON</h2>
-			<p className="en">info@quantinuminvestent.com</p>
+			<div className="text">
+				<h2 className="en">COMING SOON</h2>
+				<p className="en">info@quantinuminvestent.com</p>
+			</div>
 		</div>
 	);
 };

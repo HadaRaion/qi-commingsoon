@@ -40,4 +40,9 @@
 		opacity: 0.4;
 		z-index: -1;
 	}
+
+	.text {
+		position: relative;
+		transform: translateY(-50px);
+	}
 }
